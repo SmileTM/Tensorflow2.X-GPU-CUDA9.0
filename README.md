@@ -27,7 +27,7 @@ cuDNN 7 in:
 # Second 
 ## pip
 ```shell
-pip tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl
+pip install tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl
 ```
 
 # Test
