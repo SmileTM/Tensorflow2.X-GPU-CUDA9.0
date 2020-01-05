@@ -22,7 +22,7 @@ cuDNN 7 in:
 ## First 
 ### download and unzip the file
 
-  Google-drive: [tensorflow2.0-gpu-cudn9.0](https://drive.google.com/file/d/1QYHrotSqcvcTk1cvHp_eLajqFXkGIvw-/view?usp=sharing)
+  **Google-drive**: [tensorflow2.0-gpu-cudn9.0](https://drive.google.com/file/d/1QYHrotSqcvcTk1cvHp_eLajqFXkGIvw-/view?usp=sharing)
 
 ## Second 
 ### pip
