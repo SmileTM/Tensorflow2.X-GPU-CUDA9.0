@@ -18,19 +18,19 @@ cuDNN 7 in:
     /usr/local/cuda/lib64
     /usr/local/cuda/include
 
-
-# First 
-## download and unzip the file
+# Install
+## First 
+### download and unzip the file
 
   Google-drive: [tensorflow2.0-gpu-cudn9.0](https://drive.google.com/file/d/1QYHrotSqcvcTk1cvHp_eLajqFXkGIvw-/view?usp=sharing)
 
-# Second 
-## pip
+## Second 
+### pip
 ```shell
 pip install tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl
 ```
 
-# Test
+## Test
 ```python
 import tensorflow as tf
 tf.test.is_gpu_available()
