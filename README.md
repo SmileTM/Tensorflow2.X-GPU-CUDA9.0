@@ -4,29 +4,46 @@ Tensorflow2.0-GPU-CUDA9.0
 This Tensorflow2.0-GPU-CUDA9.0 is bazel from the sorce code of Google. 
 
 
-# Requires
-python 3.7
-
-CUDA 9.0 in:
-
-    /usr/local/cuda/lib64
-    /usr/local/cuda/include
-
-
-cuDNN 7 in:
-
-    /usr/local/cuda/lib64
-    /usr/local/cuda/include
 
 # Install
-## First 
+
+## First  
+### Create cuda9.0 environment by conda
+```shell
+conda create -n cuda9.0
+conda activate cuda9.0
+conda install cudatoolkit=9.0 cudnn cupti
+```
+
+## Second
+### Add dependency in .bashrc
+
+use **conda env list** find the path of cuda9.0
+```shell
+conda env list
+```
+
+Then change the **CONDA_ENV** to your path of cuda9.0
+```shell
+export CONDA_ENV=path/envs/cuda9.0
+export CUDA_HOME=$CUDA_HOME:$CONDA_ENV/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_ENV/lib 
+```
+Then source in you terminal.
+```
+source ~/.bashrc
+```
+
+## Third
 ### download and unzip the file
 
   **Google-drive**: [tensorflow2.0-gpu-cudn9.0](https://drive.google.com/file/d/1QYHrotSqcvcTk1cvHp_eLajqFXkGIvw-/view?usp=sharing)
 
-## Second 
-### pip
+
+### create a new env in conda(you can change env to your like)
 ```shell
+conda create -n env python=3.7
+conda activate env
 pip install tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl
 ```
 
