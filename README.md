@@ -61,4 +61,4 @@ you need to bazel from the source code of tensorflow in your machine.
 
 [my-blog](https://s-tm.cn/2019/09/28/%E9%82%A3%E4%BA%9B%E5%B9%B4%E8%B5%B0%E8%BF%87%E7%9A%84%E5%9D%91-tf2-gpu%E5%AE%89%E8%A3%85/)
 
-[How to install tensorflow2.0 in cuda9? #26418](https://github.com/tensorflow/tensorflow/issues/26418) 
+[How to install tensorflow2.0 in cuda9?](https://github.com/tensorflow/tensorflow/issues/26418) 
