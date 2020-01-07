@@ -67,7 +67,21 @@ python
 import tensorflow as tf
 tf.test.is_gpu_available()
 ```
+If it shows True, congratulations.
 
+### Error
+
+```shell
+W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.9.0';.....undefined symbol: GOMP_critical_end;
+```
+If you have this error, please add follow code in your code.
+```python
+import tensorflow as tf
+import ctypes
+ctypes.CDLL("libgomp.so.1", mode=ctypes.RTLD_GLOBAL)
+tf.test.is_gpu_available()
+
+```
 
 # How to install tensorflow2.0-GPU in your cuda version?
 you need to bazel from the source code of tensorflow in your machine.
