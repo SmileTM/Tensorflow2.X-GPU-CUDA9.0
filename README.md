@@ -81,6 +81,7 @@ If you have this error, please add follow code in your code.
 import tensorflow as tf
 import ctypes
 ctypes.CDLL("libgomp.so.1", mode=ctypes.RTLD_GLOBAL)
+
 tf.test.is_gpu_available()
 
 ```
