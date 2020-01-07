@@ -48,7 +48,7 @@ source ~/.bashrc
 ```
 
 ## Third
-### Download and unzip the file
+### Download and unzip the .whl file
 
   **Google-drive**: [tensorflow2.0-gpu-cudn9.0](https://drive.google.com/file/d/1QYHrotSqcvcTk1cvHp_eLajqFXkGIvw-/view?usp=sharing)
 
