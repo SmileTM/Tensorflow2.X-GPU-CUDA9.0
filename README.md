@@ -18,7 +18,7 @@ conda install cudatoolkit=9.0 cudnn cupti
 ## Second
 ### Add dependency in .bashrc
 
-use **conda env list** find the path of cuda9.0
+Use **conda env list** find the path of cuda9.0
 ```shell
 conda env list
 ```
@@ -48,12 +48,12 @@ source ~/.bashrc
 ```
 
 ## Third
-### download and unzip the file
+### Download and unzip the file
 
   **Google-drive**: [tensorflow2.0-gpu-cudn9.0](https://drive.google.com/file/d/1QYHrotSqcvcTk1cvHp_eLajqFXkGIvw-/view?usp=sharing)
 
 
-### create a new env in conda(you can change **test** to your like)
+### Create a new env in conda(you can change **test** to your like)
 ```shell
 conda create -n test python=3.7
 conda activate test
@@ -86,7 +86,7 @@ tf.test.is_gpu_available()
 # How to install tensorflow2.0-GPU in your cuda version?
 you need to bazel from the source code of tensorflow in your machine.
 
-**reference**
+**Reference**
 
 [my-blog](https://s-tm.cn/2019/09/28/%E9%82%A3%E4%BA%9B%E5%B9%B4%E8%B5%B0%E8%BF%87%E7%9A%84%E5%9D%91-tf2-gpu%E5%AE%89%E8%A3%85/)
 
