@@ -54,6 +54,9 @@ source ~/.bashrc
   
   **Google-drive**: [tensorflow2.0-gpu-cudn9.0-py3.6](https://drive.google.com/file/d/1W-B_JKVS9iFkZnGCcLLhUHdst26yMrtR/view?usp=sharing)
 
+  **Google-drive**: [tensorflow2.0-gpu-cudn9.0-py3.5](https://drive.google.com/file/d/1nfgaXL_OaFuHi8vnqDuihZpyQcDmQspL/view?usp=sharing)
+
+
 
 ### Create a new env in conda(you can change **test** to your like)
 ```shell
