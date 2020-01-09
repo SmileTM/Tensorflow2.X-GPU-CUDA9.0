@@ -7,6 +7,10 @@ This Tensorflow2.0-GPU-CUDA9.0 is bazel from the sorce code of Google.
 
 # Install
 
+
+If you have configured cuda9 and cudnn in your .bashrc, you can skip to Third step.
+
+
 ## First  
 ### Create cuda9.0 environment by conda
 ```shell
