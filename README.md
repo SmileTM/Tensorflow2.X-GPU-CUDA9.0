@@ -93,6 +93,10 @@ tf.test.is_gpu_available()
 
 ```
 
+If it works , please give me a star.
+
+Thank you!
+
 # How to install tensorflow2.0-GPU in your cuda version?
 you need to bazel from the source code of tensorflow in your machine.
 
