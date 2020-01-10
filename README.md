@@ -1,7 +1,7 @@
 # Tensorflow2.X-GPU-CUDA9.0
 Tensorflow2.X-GPU-CUDA9.0
 
-This Tensorflow2.X-GPU-CUDA9.0 is bazel from the sorce code of Google. 
+This Tensorflow2.X-GPU-CUDA9.0 is bazeled from the sorce code of Google. 
 
 
 
