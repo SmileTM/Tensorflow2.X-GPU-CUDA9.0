@@ -54,6 +54,9 @@ source ~/.bashrc
 ## Third
 ### Download and unzip the .whl file
 
+  **Google-drive**: [tensorflow2.1-gpu-cudn9.0-py3.7](https://drive.google.com/file/d/1JtxGVpJQAIRxEzdIyIQsGY0axU0a0ISo/view?usp=sharing)
+
+
   **Google-drive**: [tensorflow2.0-gpu-cudn9.0-py3.7](https://drive.google.com/file/d/1QYHrotSqcvcTk1cvHp_eLajqFXkGIvw-/view?usp=sharing)
   
   **Google-drive**: [tensorflow2.0-gpu-cudn9.0-py3.6](https://drive.google.com/file/d/1W-B_JKVS9iFkZnGCcLLhUHdst26yMrtR/view?usp=sharing)
