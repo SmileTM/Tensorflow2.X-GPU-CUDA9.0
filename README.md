@@ -16,7 +16,7 @@ If you have configured cuda9 and cudnn in your .bashrc, you can skip to Third st
 ```shell
 conda create -n cuda9.0
 conda activate cuda9.0
-conda install cudatoolkit=9.0 cudnn cupti
+conda install cudatoolkit=9.0 cudnn=7.6.0 cupti
 ```
 
 ## Second
