@@ -35,9 +35,15 @@ cuda9.0                  /disk1/lx/conda/envs/cuda9.0
 mk                       /disk1/lx/conda/envs/mk
 
 ```
+change the **CONDA_ENV** to your path of cuda9.0 
+
+add the following three lines of code in `.bashrc`
 
 
-Then change the **CONDA_ENV** to your path of cuda9.0
+```shell
+vim ~/.bashrc
+```
+
 ```shell
 export CONDA_ENV="/disk1/lx/conda/envs/cuda9.0"
 export CUDA_HOME="$CUDA_HOME:$CONDA_ENV/lib"
@@ -45,8 +51,7 @@ export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$CONDA_ENV/lib"
 ```
 
 
-
-Then source in you terminal.
+Then source `.bashrc` in you terminal.
 ```
 source ~/.bashrc
 ```
